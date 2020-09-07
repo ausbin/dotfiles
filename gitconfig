@@ -1,0 +1,19 @@
+[user]
+	email = git@austinjadams.com
+	name = Austin Adams
+	foo = bob
+[core]
+	excludesfile = /home/austin/.gitignore
+[push]
+	default = simple
+[alias]
+	s = status
+	d = diff
+	a = add
+	p = push
+	c = commit
+	ch = checkout
+	h = checkout
+	b = branch
+[credential]
+	helper = cache --timeout=28800
