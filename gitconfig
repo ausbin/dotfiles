@@ -15,5 +15,6 @@
 	ch = checkout
 	h = checkout
 	b = branch
+	g = grep -i -n
 [credential]
 	helper = cache --timeout=28800
