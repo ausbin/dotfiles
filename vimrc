@@ -17,10 +17,11 @@ autocmd FileType go setlocal noexpandtab
 autocmd FileType make setlocal noexpandtab
 "autocmd FileType html setlocal ts=2 sw=2
 autocmd FileType gitcommit setlocal tw=72
+autocmd BufRead,BufNewFile *.tsx set filetype=typescript
 syntax on
 "colorscheme default
 
-set textwidth=72
+"set textwidth=72
 set formatoptions-=t
 
 " Useful for lc3grade output
@@ -33,7 +34,7 @@ set undolevels=1000
 set undoreload=10000
 
 " coq
-filetype plugin indent on
+"filetype plugin indent on
 
 " plugin management! :)
 execute pathogen#infect()
