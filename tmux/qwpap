@@ -1,0 +1,4 @@
+new -s qwpap -c /home/austin/Documents/school/gatech/grad/qsvt/qsvt/papers/qwerty-asplos24/ -n vim "vim -c 'NERDTree | wincmd p' qwerty.tex sections/*.tex bib/*.bib"
+neww -n make
+selectw -t 0
+run -b "evince qwerty.pdf &"

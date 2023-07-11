@@ -2,12 +2,20 @@ alias g='git'
 alias gg='nsdo gatech git'
 alias se='sudoedit'
 alias o='xdg-open &>/dev/null'
-alias pbcopy='xclip -i -selection clipboard'
-alias pbpaste='xclip -o -selection clipboard'
+alias pbcopy='wl-copy'
+alias pbpaste='wl-paste'
+#alias pbcopy='xclip -i -selection clipboard'
+#alias pbpaste='xclip -o -selection clipboard'
 # tmux
 alias tl='tmux ls'
 alias tn='tmux new-ses -s'
 alias ta='tmux attach -t'
+alias tnsl='ls -1 ~/.tmux/'
+tns() {
+    local name=$1
+    tmux start \; source-file ~/.tmux/"$name"
+}
+
 # services
 alias sprunge="curl -F 'sprunge=<-' http://sprunge.us"
 alias d='sudo -g docker docker'
@@ -16,6 +24,7 @@ alias ff='firefox-stable'
 # WARNING: very insecure
 #alias serve="jupyter-notebook --ip '*' --NotebookApp.token='' --NotebookApp.password=''"
 #alias grad='cd ~/Documents/school/gatech/grad'
+alias piv='pip install -v .'
 alias mj='make -j8'
 alias tmj='time make -j8'
 alias nsg='nsdo gatech git'
@@ -59,7 +68,7 @@ export LD_LIBRARY_PATH=~/bin/lib
 export C_INCLUDE_PATH=~/bin/include
 export PKG_CONFIG_PATH=~/bin/pkgconfig
 
-eval $(opam env --switch=default)
+#eval $(opam env --switch=default)
 
 cute() {
     export PS1='$ '

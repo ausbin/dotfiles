@@ -1,0 +1,4 @@
+new -s qwpy -c /home/austin/Documents/school/gatech/grad/qsvt/qsvt/qwerty/PyQwerty/ -n vim "vim -c 'NERDTree | wincmd p' qwerty/*.{cpp,hpp,py} examples/*.py"
+neww -n build "bash --rcfile <(cat /etc/bash.bashrc ~/.bashrc venv/bin/activate; echo santosh 16)"
+neww -n git "bash --rcfile <(cat /etc/bash.bashrc ~/.bashrc; echo git status)"
+selectw -t 0

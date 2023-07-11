@@ -1,0 +1,5 @@
+new -s mlir -c /home/austin/Documents/proj/llvm-project/mlir/ -n src "vim -c 'NERDTree | wincmd p | NERDTreeFind' include/mlir/Dialect/LLVMIR/*.h lib/Dialect/LLVMIR/IR/*.{cpp,h}"
+neww -c /home/austin/bin/llvm16/include/mlir/ -n tblgen "vim -c 'NERDTree | wincmd p | NERDTreeFind' Dialect/LLVMIR/*.inc"
+splitw -h -c /home/austin/bin/llvm16/include/mlir/
+selectp -t 0
+selectw -t 0

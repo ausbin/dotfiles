@@ -56,3 +56,4 @@ augroup END
 
 command Os set ts=2 sw=2 | let g:NERDTreeSortOrder=['Makefile', '\.[chS]$'] | NERDTree
 command Ts let NERDTreeIgnore = ['\.\(js\|d\.ts\)$'] | NERDTree
+command LM !latexmk -pdf
