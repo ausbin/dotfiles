@@ -17,10 +17,13 @@
 	c = commit
 	ch = checkout
     cane = "commit --amend --no-edit"
+    dc = diff --cached
 	h = checkout
 	b = branch
 	g = grep -i -n
-    sed = ! git ls-files -z | xargs -0 sed -i -e
+	gr = grep -i -n --recurse-submodules
+    #sed = ! git ls-files -z | xargs -0 sed -i -e
+    sed = ! git ls-files -s -z | grep -z -v '^16' | cut -z -f 2- | xargs -0 sed -i -e
 [credential]
 	helper = cache --timeout=28800
 [init]

@@ -1,0 +1,3 @@
+new -s asm -c /home/austin/Documents/school/gatech/grad/cs2110/aja-lecture-outlines/future/asm -n vim "vim -c 'NERDTree | wincmd p' *.c *.asm"
+neww -n git
+selectw -t 0

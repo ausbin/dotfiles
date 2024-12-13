@@ -1,0 +1,4 @@
+new -s qwweb -c /home/austin/Documents/school/gatech/grad/qsvt/qsvt/qwerty/qwerty-website/site/ -n vim "vim -c 'NERDTree | wincmd p' config.toml content/*.md content/**/*.md"
+neww -n hugo
+neww -n git
+selectw -t 0

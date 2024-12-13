@@ -1,0 +1,4 @@
+new -s qwcgo -c /home/austin/Documents/school/gatech/grad/qsvt/qsvt/papers/qwerty-cgo25/ -n vim "vim -c 'NERDTree | wincmd p' *.tex sections/*.tex bib/*.bib"
+neww -n make
+selectw -t 0
+run -b "evince qwerty-compiler.pdf &"

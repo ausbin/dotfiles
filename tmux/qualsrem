@@ -1,0 +1,4 @@
+new -s qualsrem -c /home/austin/Documents/school/gatech/grad/quals/quals-scalo-slides/remedial -n vim "vim -c 'NERDTree | wincmd p' *.tex sections/*.tex *.bib"
+neww -n make
+selectw -t 0
+run -b "evince remed.pdf &"

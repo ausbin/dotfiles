@@ -1,0 +1,3 @@
+new -s qiree -c /home/austin/Documents/school/gatech/grad/qsvt/qiree/ -n vim "vim -c 'NERDTree | wincmd p' src/qiree/*.{hh,cc} src/qiree/detail/*.{hh,cc}"
+neww -n build
+selectw -t 0

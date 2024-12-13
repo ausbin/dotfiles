@@ -1,0 +1,3 @@
+new -s lec -c /home/austin/Documents/school/gatech/grad/cs2110/aja-lecture-outlines/2024-fall -n vim "vim -c 'NERDTree | wincmd p' *.md"
+neww -n git
+selectw -t 0

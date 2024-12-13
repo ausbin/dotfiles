@@ -1,0 +1,4 @@
+new -s qwaide -c /home/austin/Documents/school/gatech/grad/qsvt/qsvt/slides/2024-01-30-aide-qc -n vim "vim -c 'NERDTree | wincmd p' *.tex *.bib"
+neww -n make
+selectw -t 0
+run -b "evince pres.pdf &"

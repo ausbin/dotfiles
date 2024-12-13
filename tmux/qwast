@@ -1,0 +1,5 @@
+new -s qwast -c /home/austin/Documents/school/gatech/grad/qsvt/qsvt/qwerty/qwerty-ast/ -n vim "vim -c 'NERDTree | wincmd p' README.md *.rs"
+neww -n build
+neww -n git "bash --rcfile <(cat /etc/bash.bashrc ~/.bashrc; echo git status)"
+neww -n test
+selectw -t 0

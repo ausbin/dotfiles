@@ -1,0 +1,3 @@
+new -s xacc -c /home/austin/Documents/school/gatech/grad/xacc/xacc/ -n vim "vim -c 'NERDTree | wincmd p' xacc/**/*.{hpp,cpp} quantum/**/*.{hpp,cpp}"
+neww -n build
+selectw -t 0
